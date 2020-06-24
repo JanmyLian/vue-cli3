@@ -16,7 +16,12 @@ if (!DEBUG) {
 const routes = [
   {
     path: `/${moduleName}`,
-    redirect: { name: 'element-ui-dialog' }
+    redirect: { name: 'home' }
+  },
+  {
+    path: `/${moduleName}/home`,
+    name: 'home',
+    component: () => import('./views/home.vue')
   },
   {
     path: `/${moduleName}/element-ui-dialog/:id/:name`,
