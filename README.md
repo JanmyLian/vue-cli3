@@ -6,3 +6,4 @@ vue demo project
 # test git more account
 # test push
 # test config username
+# test sourcetree push
