@@ -5,3 +5,4 @@ vue demo project
 # test2
 # test git more account
 # test push
+# test config username
